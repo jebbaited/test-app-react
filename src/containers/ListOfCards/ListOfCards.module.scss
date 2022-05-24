@@ -1,0 +1,15 @@
+.ListOfCards {
+  display: flex;
+  justify-content: center;
+  > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+  }
+}
+
+.Cards {
+  background-color: #f8f8f8;
+  margin: 20px;
+}
